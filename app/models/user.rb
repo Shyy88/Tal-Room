@@ -1,7 +1,7 @@
 class User < ApplicationRecord
 
     validates_uniqueness_of :username
-  
+# name as login
     def self.generate
       adjectives = ['Attractive', 'Charming', 'Wonderful', 'Effective', 'Flying', 'Gentle']
       nouns = ['Highway', 'Intern', 'Sherlock', 'King', 'Sensei']
